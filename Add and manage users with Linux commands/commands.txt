@@ -1,0 +1,20 @@
+# Add a new user named 'newemployee'
+sudo useradd newemployee
+
+# Set a password for the new user
+sudo passwd newemployee
+
+# Change ownership of a file to newemployee
+sudo chown newemployee example.txt
+
+# Create a new group called 'developers'
+sudo groupadd developers
+
+# Add newemployee to the 'developers' group
+sudo usermod -aG developers newemployee
+
+# Verify group membership
+groups newemployee
+
+# Delete the user 'newemployee' and remove home directory
+sudo userdel -r newemployee
