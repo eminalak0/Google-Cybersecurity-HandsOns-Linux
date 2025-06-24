@@ -1,0 +1,12 @@
+# Examine Input and Output in the Shell
+
+In this lab, I used the `echo` command to understand how input is received and output is displayed in the Linux shell environment. I also explored other basic shell commands to get familiar with input/output operations and shell functionality.
+
+Tasks completed:
+
+- Generated output using the `echo` command  
+- Performed basic calculations with the `expr` command  
+- Cleared the shell window using the `clear` command  
+- Explored additional shell commands to deepen understanding of input/output handling and shell behavior
+
+This exercise helped improve my command-line skills and provided a foundation for working effectively in a Linux Bash shell.
