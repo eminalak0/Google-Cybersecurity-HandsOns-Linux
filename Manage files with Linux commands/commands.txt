@@ -1,0 +1,23 @@
+# Create a new file
+touch newfile.txt
+
+# Create a new directory
+mkdir reports
+
+# Move a file into a directory
+mv newfile.txt reports/
+
+# Rename a file
+mv reports/newfile.txt reports/final_report.txt
+
+# Copy a file
+cp reports/final_report.txt reports/final_report_backup.txt
+
+# Copy an entire directory
+cp -r reports archived_reports
+
+# Delete a file
+rm reports/final_report_backup.txt
+
+# Delete a directory
+rm -r archived_reports
