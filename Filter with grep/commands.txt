@@ -1,0 +1,17 @@
+# Search for the word "error" in a specific file
+grep "error" system.log
+
+# Search recursively for files that contain the string "root"
+grep -rl "root" /etc
+
+# Search for a username in a passwd file
+grep "username" /etc/passwd
+
+# Case-insensitive search for "warning" in a file
+grep -i "warning" logfile.txt
+
+# Count how many times "failed" appears in auth.log
+grep -c "failed" /var/log/auth.log
+
+# Show line numbers when matching "ssh" in a file
+grep -n "ssh" /var/log/syslog
