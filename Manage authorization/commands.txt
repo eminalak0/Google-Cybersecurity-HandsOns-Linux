@@ -1,0 +1,17 @@
+# List file permissions in a directory
+ls -l
+
+# Change file permissions to read/write for user, read-only for group/others
+chmod 644 example.txt
+
+# Make a script executable by the user
+chmod u+x script.sh
+
+# Remove all access for others
+chmod o-rwx secret.txt
+
+# Change ownership of a file to root
+sudo chown root:root secure.log
+
+# Check permissions after modification
+ls -l secure.log
