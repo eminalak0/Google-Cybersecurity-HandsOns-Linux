@@ -1,0 +1,17 @@
+# Step 1: List contents of home directory to locate files
+ls -l ~
+
+# Step 2: View plain text content of the two files to compare manually
+cat ~/file1.txt
+cat ~/file2.txt
+
+# Step 3: Compute SHA-256 hash for each file
+sha256sum ~/file1.txt
+sha256sum ~/file2.txt
+
+# Step 4: Save the hashes to separate files
+sha256sum ~/file1.txt > ~/hash1.txt
+sha256sum ~/file2.txt > ~/hash2.txt
+
+# Step 5: Compare the two hash files to check for differences
+diff ~/hash1.txt ~/hash2.txt
