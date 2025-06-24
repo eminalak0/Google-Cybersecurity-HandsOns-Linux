@@ -1,0 +1,16 @@
+# 1. List files to find the encrypted message
+ls -l
+
+# 2. View the encrypted file content (for short text)
+cat encrypted_message.txt
+
+# 3. Decrypt classical cipher: Caesar cipher example
+# Assuming a shift of 3 letters backward, use 'tr' like this:
+cat encrypted_message.txt | tr 'DEFGHIJKLMNOPQRSTUVWXYZABC' 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+
+# 4. Decrypt file encrypted with AES-256 (if applicable)
+# Replace 'yourpassword' with the actual password/key provided
+openssl aes-256-cbc -d -in encrypted_file.enc -out decrypted_file.txt -k yourpassword
+
+# 5. Verify decrypted file content
+cat decrypted_file.txt
