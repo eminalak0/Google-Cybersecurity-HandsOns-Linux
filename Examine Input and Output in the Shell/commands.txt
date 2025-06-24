@@ -1,0 +1,12 @@
+# Print output to terminal
+echo "Hello, world!"
+
+# Do basic arithmetic
+expr 3 + 7
+
+# Clear the terminal
+clear
+
+# Echo a variable
+name="Emin"
+echo "Welcome, $name"
