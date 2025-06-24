@@ -1,13 +1,19 @@
 # Install Software in a Linux Distribution
 
-In this hands-on project, I practiced installing, uninstalling, and managing software packages using the `apt` package manager on a Linux Bash environment.
+In this lab, I practiced using the `apt` package manager to install, uninstall, and manage software on a Debian-based Linux system. This hands-on activity introduced me to software package control — a foundational skill for any cybersecurity professional working in Linux environments.
 
-Tasks completed:
+## Tasks Completed
 
-- Verified `apt` is installed and working in Bash  
-- Installed Suricata (an open-source network threat detection tool) using `apt`  
-- Uninstalled Suricata  
-- Installed `tcpdump` (a powerful command-line packet analyzer) with `apt`  
-- Reinstalled Suricata
+- Confirmed that `apt` is installed and accessible in the shell
+- Installed **Suricata**, a network threat detection engine
+- Uninstalled Suricata to observe dependency management
+- Installed **tcpdump**, a packet analyzer
+- Reinstalled Suricata to reinforce installation steps
 
-This exercise helped me build basic Linux command line skills and understand how to manage software packages on Debian-based systems.
+## Skills Gained
+
+- Proficiency with `apt` package manager
+- Familiarity with installing/removing open-source security tools
+- Improved comfort with command-line interfaces (CLI)
+
+This experience gave me hands-on exposure to managing software tools critical in threat detection and traffic analysis.
