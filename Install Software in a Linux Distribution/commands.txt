@@ -1,0 +1,15 @@
+# Confirm APT is installed
+apt --version
+
+# Install Suricata
+sudo apt update
+sudo apt install suricata
+
+# Uninstall Suricata
+sudo apt remove suricata
+
+# Install tcpdump
+sudo apt install tcpdump
+
+# Reinstall Suricata
+sudo apt install suricata
