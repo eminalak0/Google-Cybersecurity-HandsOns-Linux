@@ -1,0 +1,15 @@
+# Display the manual page for 'ls'
+man ls
+
+# Get a brief description of the 'chmod' command
+whatis chmod
+
+# Search for commands related to 'group'
+apropos group
+
+# Show help for the 'groupadd' command
+man groupadd
+
+# Compare two commands - example: 'ls' and 'dir' (by reading their man pages)
+man ls
+man dir
