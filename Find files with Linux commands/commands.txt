@@ -1,0 +1,17 @@
+# Show current working directory
+pwd
+
+# List contents of the current directory
+ls
+
+# List all contents with detailed info
+ls -la
+
+# Navigate to another directory
+cd /var/log
+
+# Display the contents of a file
+cat syslog
+
+# Show the first 10 lines of a file
+head syslog
